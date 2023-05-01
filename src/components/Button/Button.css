@@ -1,0 +1,16 @@
+.button {
+    padding: .8rem 1.5rem;
+    width: max-content;
+    border: 2px solid #fff;
+    color: #fff;
+    font-weight: 800;
+    cursor: pointer;
+    transition: all .3s;
+    font-size: .8rem;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #fff;
+    color: #000;
+}

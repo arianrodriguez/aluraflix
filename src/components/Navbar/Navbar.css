@@ -1,0 +1,27 @@
+.navbar {
+    padding: .8rem 3rem;
+    background-color: #000;
+    border-bottom: 2px solid #2A7AE4;
+}
+
+.navbar__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo {
+    width: 150px;
+    height: 40px;
+}
+
+@media screen and (max-width: 440px) {
+    .navbar {
+        padding: 1.2rem 3rem;
+    }
+    .navbar__content {
+        justify-content: center;
+        gap: 2rem;
+    }
+}
